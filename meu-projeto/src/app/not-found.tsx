@@ -1,0 +1,2 @@
+import { ActionLink } from "@/components/action-link";
+export default function NotFound() { return <main className="mx-auto flex max-w-2xl flex-col items-center px-4 py-24 text-center"><p className="eyebrow">Erro 404</p><h1 className="text-4xl font-extrabold text-weg-dark">Curso não encontrado</h1><p className="mt-4 text-slate-600">O item solicitado não existe ou não está mais disponível.</p><div className="mt-8"><ActionLink href="/#cursos">Ver cursos</ActionLink></div></main>; }

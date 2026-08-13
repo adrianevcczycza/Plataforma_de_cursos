@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-weg-blue: #00579d;
+  --color-weg-dark: #003f7d;
+  --color-weg-light: #eaf4ff;
+  --font-sans: var(--font-inter);
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-inter), Arial, sans-serif; }
+a, button { transition: background-color 150ms, color 150ms, border-color 150ms; }
+.eyebrow { margin-bottom: .75rem; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .16em; color: var(--color-weg-blue); }
